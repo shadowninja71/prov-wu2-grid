@@ -11,13 +11,11 @@
   grid-template-columns: repeat(3, 1fr);
 }
 
-.textboxt{
+.textbox{
   border: 2px solid #000000;
   border-radius: 5px;
-  gap: 30px;
-  background-color: #ffffff;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  padding: 1em;
+  color: #ffffff;
 }
 
 
@@ -27,6 +25,7 @@
   background-color: #ffd8a8;
   padding: 1em;
   color: #d9480f;
+  
 }
 
 .box1 {
@@ -53,12 +52,6 @@
   grid-column: 1 / 4;
   grid-row-start: 21;
   grid-row-end: 31;
-}
-
-.text1 {
-  grid-column: 1 ;
-  grid-row-start: 1;
-  grid-row-end: 1 ;
 }
 
 .nested {
